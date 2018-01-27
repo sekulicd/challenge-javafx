@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="96.0" prefWidth="646.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="lblRepositoryName" fx:id="lblRepositoryName" layoutX="24.0" layoutY="14.0" prefHeight="18.0" prefWidth="466.0" text="Repository Name" />
+      <Label id="lblRepositoryDescription" fx:id="lblRepositoryDescription" layoutX="24.0" layoutY="37.0" prefHeight="38.0" prefWidth="466.0" text="Repository description" />
+      <Label id="lblForksCount" fx:id="lblForksCount" layoutX="24.0" layoutY="77.0" text="forks" />
+      <Label id="lblStarsCount" fx:id="lblStarsCount" layoutX="98.0" layoutY="78.0" text="stars" />
+      <ImageView id="ivAvatar" fx:id="ivAvatar" fitHeight="59.0" fitWidth="72.0" layoutX="530.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lblUsername" layoutX="529.0" layoutY="67.0" prefHeight="18.0" prefWidth="103.0" text="username" />
+   </children>
+</AnchorPane>
